@@ -1,0 +1,43 @@
+body {
+    background: lavender;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#navigator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#readerHead {
+    border-bottom: 1px blue solid;
+    font-size: 1.5em;
+    height: 40px;
+    margin: 0 201px 0 201px;
+}
+
+#readerBody {
+    margin: 10px 201px 0 201px;
+    overflow-y: scroll;
+}
+
+#chapters {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+ul {
+    font-size: 14px;
+}
+
+.hide {
+    display: none;
+}
