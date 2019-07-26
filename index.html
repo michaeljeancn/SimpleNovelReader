@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" charset="utf-8" />
+<html>
+    <head>
+        <title>简易小说阅读器</title>
+        <link href="./src/reader.css" rel="stylesheet" />
+        <script>
+            window.$ = window.jQuery = require("./js/jquery.min");
+            $(window).resize(function() {
+                $('#readerBody').css('height', window.innerHeight - 100);
+            });
+        </script>
+        <script src="./src/readtext.js"></script>
+        <script src="./src/spider.js"></script>
+    </head>
+    <body>
+        <div id="navigator">
+            <div id="query" class="hide">
+                <input type="url" title="书籍网址输入" id="bookURL" />
+                <button onclick="queryBook();">获取书籍信息</button>
+            </div>
+        </div>
+        <div id="readerHead" style="text-align: center"></div>
+        <div id="readerBody"></div>
+        <div id="chapters">
+            <button id="downloadChapters" class="hide" onclick="">下载书籍</button>
+        </div>
+    </body>
+</html>
