@@ -5,11 +5,19 @@ This is a simple novel reader, could download the book from a specific URL.
 > Current version is: 0.1.0
 
 ## Development Tools
+<<<<<<< HEAD
 >- [Electron](https://github.com/electron/electron)
 >- [jQuery](https://jquery.com)
 >- [superagent](http://visionmedia.github.io/superagent)
 >- [cheerio](https://cheerio.js.org/)
 >- [async](https://caolan.github.io/async)
+=======
+> [Electron](https://github.com/electron/electron)
+> [jQuery](https://jquery.com)
+> [superagent](http://visionmedia.github.io/superagent)
+> [cheerio](https://cheerio.js.org/)
+> [async](https://caolan.github.io/async)
+>>>>>>> 1922764ca4f968b75f99840b3b1fe7db8f11b81a
 
 ## Current Functions
 - [x] Basic reader
