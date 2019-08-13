@@ -1,9 +1,11 @@
 # SimpleNovelReader
 This is a simple novel reader, could download the book from a specific URL.
 
+
 ## Version
 - Current version is: 0.1.0
 > Not a release ready version yet.
+! Only support Chinese for current version
 
 ## Run
 >npm test
