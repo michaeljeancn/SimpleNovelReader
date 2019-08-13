@@ -2,11 +2,11 @@
 This is a simple novel reader, could download the book from a specific URL.
 
 ## Version
-> Current version is: 0.1.0
-- Not a release ready version yet.
+- Current version is: 0.1.0
+> Not a release ready version yet.
 
 ## Run
-[npm test]
+>npm test
 
 ## Development Tools
 >- [Electron](https://github.com/electron/electron)
