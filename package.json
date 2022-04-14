@@ -5,7 +5,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "cheerio": "^1.0.0-rc.3",
     "electron": "^5.0.8",
     "iconv-lite": "^0.5.0",
